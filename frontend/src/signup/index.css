@@ -1,0 +1,70 @@
+/*Create the box inside sign-in box for managing the display of label and input*/
+.signupbox {
+    margin-top: 2%;
+    margin-left: 19%;
+    display: flex;
+    flex-direction: column;
+}
+
+/*Set the label style*/
+.signupbox label {
+    font-size: large;
+    font-weight: 300;
+    line-height: 40px;
+    text-align: left;
+}
+
+/*Set the input box style*/
+.signupbox input {
+    text-align: left;
+    padding: 5px 15px;
+    box-sizing: border-box;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 75%;
+    height: 50px;
+}
+
+/*Set the text style for introducing to sign-up page*/
+.tologin {
+    margin-top: 4%;
+    margin-right: 23%;
+    margin-bottom: 1%;
+    font-size:large;
+    font-weight:lighter;
+    text-align: center;
+}
+
+/*Set the link stlye for going to sign-up page has no decoration*/
+.tologin a{
+    font-weight: bold;
+    padding-inline: 10px;
+    text-decoration: none;
+	color: #0699D8;
+}
+
+/*Set the sign-in button box style*/
+#btnSignup{
+    color: white;
+    margin-top: 5%;
+    margin-left: 26%;
+    background-color: #983C32;
+    border:#983C32;
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    font-size: large;
+}
+
+/*Set the animation when the button is hover*/
+#btnSignup:hover{
+    background-color: #DB6154;
+    border:#DB6154;
+}
+
+/*Set the animation when the button is active*/
+#btnSignup:active{
+    background-color: #6C241C;
+    border:#6C241C;
+}

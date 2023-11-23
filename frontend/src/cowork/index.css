@@ -1,0 +1,165 @@
+.cowork {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 3%;
+    width: 1200px;
+    height: 650px;
+}
+
+.coworkimg {
+    border-radius: 20px;
+    width: 50%;
+    height: 90%;   
+}
+
+.coworkimg img{
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.coworkinfo {
+    margin-top: -3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+
+.coworkname {
+    color:#f3c16c;
+    letter-spacing: 2px;
+    -webkit-text-stroke: 0.05px #F0A830;
+    text-transform: uppercase;
+    height: 10%;
+}
+
+.coworkdesc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-top: 2%;
+    border-radius: 20px;
+    width:  90%;
+    height: 30%;
+    margin-bottom: 2%;
+}
+
+.coworkdesc p.info{
+    width:  90%;
+    font-weight: 200;
+    font-size: smaller;
+    text-align: center;
+}
+
+.coworkfacility {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+    width:  90%;
+    height: 30%;
+    margin-bottom: 2%;
+}
+.coworkfunction {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    width:  90%;
+    height: 20%;
+}
+
+.coworklocation {
+    margin-left: 2%;
+    border-radius: 20px;
+    background-color: white;
+    width: 30%;
+    height: 90%;
+}
+
+.coworklocation iframe {
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.coworkrating {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: white;
+    width: 30%;
+    height: 90%;
+    font-weight: lighter;
+}
+
+.rating-gr{
+    width:70%;
+    margin-top: 5%;
+    margin-bottom: -7%;
+}
+
+.rating-gr img{
+    width:30px;
+}
+
+.coworkseat {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2%;
+    border-radius: 20px;
+    background-color: white;
+    width: 30%;
+    height: 90%;
+}
+
+.coworkseat h3{
+    font-size:xx-large;
+    margin-bottom: -5%;
+    color: #D93753;
+}
+
+.facilitycheck {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+}
+
+.facility {
+    display: flex;
+    align-items: center;
+  }
+  
+  .facility img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px; /* Adjust this value to add space between the image and the paragraph */
+    width: 30px;
+  }
+  
+  .facility p {
+    width: 120px;
+    display: inline-block;
+    text-align: left;
+  }
+  
+  
+  
+  
+  
+  

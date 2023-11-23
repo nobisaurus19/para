@@ -1,0 +1,17 @@
+* {
+  font-family: 'Jua', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  overflow-y:hidden;
+  overflow-x: hidden;
+  margin: 0;
+  background-image: url('/public/originalbg.png');
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

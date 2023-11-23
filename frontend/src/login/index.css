@@ -1,0 +1,118 @@
+/*Create sign-in box*/
+.login {
+    background-color: #F0EDE5;
+    border-radius: 40px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 600px;
+    height: 500px;
+}
+
+.loginrole {
+    margin-top: 10%;
+    margin-bottom: 6%;
+}
+
+/*Set the text style for introducing to sign-up page*/
+.tosignup {
+    margin-top: 7%;
+    margin-right: 23%;
+    margin-bottom: 1%;
+    font-size:large;
+    font-weight:lighter;
+    text-align: center;
+}
+
+/*Set the link stlye for going to sign-up page has no decoration*/
+.tosignup a{
+    font-weight: bold;
+    padding-inline: 10px;
+    text-decoration: none;
+	color: #0699D8;
+}
+
+/*Set the option title of the box style under using h5*/
+.loginrole a {
+    margin-top: 20%;
+    margin-left: 3%;
+    margin-bottom: 8%;
+    font-size:larger;
+    text-align: center;
+    word-spacing: 10px;
+    padding: 10px;
+    padding-inline: 40px;
+    text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+}
+
+/*Set the different animation for showing the current page (user or admin)*/
+.loginrole a.current {
+    border-radius: 20px;
+    color: white;
+    background-color: #D93753;
+}
+
+/*Create the box inside sign-in box for managing the display of label and input*/
+.loginbox {
+    margin-left: 19%;
+    display: flex;
+    flex-direction: column;
+}
+
+/*Set the label style*/
+.loginbox label {
+    font-size: large;
+    font-weight: 300;
+    line-height: 40px;
+    text-align: left;
+}
+
+/*Set the input box style*/
+.loginbox input {
+    text-align: left;
+    padding: 5px 15px;
+    box-sizing: border-box;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 75%;
+    height: 50px;
+}
+
+.error {
+    text-align: left;
+    color: red;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+/*Set the sign-in button box style*/
+#btnLogin{
+    color: white;
+    margin-top: 10%;
+    margin-left: 26%;
+    background-color: #983C32;
+    border:#983C32;
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    font-size: large;
+}
+
+/*Set the animation when the button is hover*/
+#btnLogin:hover{
+    background-color: #DB6154;
+    border:#DB6154;
+}
+
+/*Set the animation when the button is active*/
+#btnLogin:active{
+    background-color: #6C241C;
+    border:#6C241C;
+}
+

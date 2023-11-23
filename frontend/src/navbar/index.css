@@ -1,0 +1,107 @@
+.logo {
+    z-index: 100;
+    margin-left: -20%;
+}
+.navbar {
+    z-index: 1;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 60px;
+    white-space: nowrap;
+  }
+  
+.navbar-list {
+    margin-left: -20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    font-weight: semibold;
+}
+
+.navbar-item {
+    margin-top: 5px;
+    font-size: 25px;
+    padding-left: 15%;
+}
+  
+.navbar-link {
+    color: white;
+    text-decoration: none;
+}
+  
+.navbar-link:hover {
+    color: #DB6154;
+}
+
+.navbar-link:active {
+    color: #983C32;
+}
+
+.LoginButton {
+    margin-top: -15px;
+    margin-left: 10px;
+    background-color: #D93753;
+    border:#D93753;
+    color:white;
+    border-radius: 25px;
+    font-size: 20px;
+    height: 120%;
+    width: 200%;
+}
+
+.LoginButton:hover {
+    background-color: #DB6154;
+    border:#DB6154;
+}
+
+.LoginButton:active {
+    background-color: #983C32;
+    border:#983C32;
+}
+
+.profilepic {
+    margin-left: 5%;
+    width: 40px;
+}
+
+.currentpage {
+    color: #983C32;
+}
+
+.currentpage button{
+    color: #983C32;
+    background-color: #F0A830;
+}
+
+.profile-modal{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    right: 120px;
+    background-color: #F0EDE5;
+    border: 1px solid #F0EDE5;
+    border-radius: 5px;
+    padding: 10px;
+    z-index: 200;
+}
+
+.profile-modal p {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    font-size: 15px;
+    color: black;
+    text-align: left;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+
+  .profile-modal img {
+    margin-right: 5%;
+    width: 20px;
+  }

@@ -1,0 +1,199 @@
+.wave3{
+    margin-top: 5%;
+}
+.service {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin: auto;
+    margin-top: -51%;
+    width: 1400px;
+    height: 500px;
+    gap: 60px;
+}
+.service h3{
+    font-size: x-large;
+    margin-left: 2%;
+    color: white;
+    text-align: left;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.service img{
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.deal{
+    display: flex;
+    flex-direction: column;
+}
+.autorec{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    background: white;
+    border-radius: 30px;
+    width: 500px;
+    height: 510px;
+}
+.coworkdeal{
+    display: flex;
+    gap: 10px;
+    width: 600px;
+    height: 250px;
+}
+.hotplace{
+    background: black;
+    border-radius: 30px;
+    width: 200px;
+    height: 230px;
+}
+.hotname{
+    margin-left: 20%;
+    text-align: center;
+    color: white;
+    width: 60%;
+}
+
+.exclusive{
+    display: flex;
+    gap: 10px;
+    width: 600px;
+    height: 150px;
+}
+
+.coupon{
+    background: black;
+    border-radius: 30px;
+    width: 300px;
+    height: 150px;
+}
+.promodesc{
+    color: #F0A830;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background: linear-gradient(to bottom, white 25%,transparent 70%);
+    height: 40%;
+    padding: 6%;
+    margin-top: 0%;
+    text-align: center;
+}
+.recname{
+    text-align: left;
+    font-size: larger;
+    padding-left: 7%;
+    padding-top: 15px;
+    color: black;
+    margin-top: 0%;
+    width: 100%;
+    height: 8%;
+    border-radius: 30px;
+    background: linear-gradient(to right, white,transparent);
+}
+.onlykohub{
+    margin-top: 5%;
+}
+
+/* subscription */
+.wave4{
+    width: 120%;
+    margin-top: 5%;
+}
+.exduck{
+    color: white;
+    margin-top: -5%;
+    text-align: left;
+}
+.exdesc{
+    color: white;
+    text-align: left;
+    width:39%;
+    tab-size: 4;
+}
+.subscription{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60%;
+    margin-left: 50%;
+    width: 900px;
+    height: 350px;
+    gap:80px;
+}
+.noble{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background-color: #E58C37;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    width: 400px;
+    height: 350px;
+}
+.royal{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background-color: #006373;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    width: 400px;
+    height: 350px;
+}
+
+.duckmascot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 300px;
+}
+.duckdetail{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    width: 50%;
+    height: 300px;
+}
+.mymascot{
+    width: 100px;
+}
+.mymascot2{
+    margin-top: -14%;
+    width: 90px;
+}
+.subname{
+    font-size: 25px;
+    color: white;
+}
+.subname2{
+    margin-top: 12%;
+    font-size: 25px;
+    color: white;
+}
+.subfee{
+    margin-top: -8%;
+    font-weight: lighter;
+    font-size:13px;
+    color: white;
+}
+.iconlist{
+    margin-right: 5px;
+    width:20px;
+}
+.ducklist{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    font-size: smaller;
+    text-align: left;
+    color: white;
+}
+

@@ -1,0 +1,136 @@
+body.active-modal {
+  overflow-y: hidden;
+}
+
+.btn-modal {
+  padding: 10px 20px;
+  display: block;
+  margin: 100px auto 0;
+  font-size: 18px;
+}
+
+.modal,
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  z-index: 100;
+}
+
+.overlay {
+  background: rgba(49, 49, 49, 0.8);
+}
+.modal-header {
+  text-transform: uppercase;
+  background-color: #EBECED;
+  padding: 8px 28px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom: 1px solid #E5E5E5;
+  width:400px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #f1f1f1;
+  padding: 14px 28px;
+  border-radius: 30px;
+  width:400px;
+  height: 450px;
+  z-index: 200;
+}
+
+.modal-button button {
+    margin-top: 100%;
+    margin-left: 0;
+    background-color: #D93753;
+    border:#D93753;
+    color:white;
+    padding: 7px 13px;
+    border-radius: 25px;
+    font-size: 18px;
+}
+
+
+.modal-button button:hover {
+  background-color: #DB6154;
+  border:#DB6154;
+}
+
+.modal-button button:active {
+  background-color: #983C32;
+  border:#983C32;
+}
+
+.editservice-content input {
+  text-align: left;
+  padding: 5px 15px;
+  box-sizing: border-box;
+  font-size: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 75%;
+  height: 50px;
+}
+
+.editservice-content {
+  margin-top: 2%;
+  margin-left: 19%;
+  display: flex;
+  flex-direction: column;
+}
+
+.edituser-button {
+    margin-top: -15px;
+    margin-left: 10px;
+    background-color: #D93753;
+    border:#D93753;
+    color:white;
+    border-radius: 25px;
+    font-size: 20px;
+    height: 120%;
+    width: 200%;
+}
+
+.editservice-content label {
+  font-size: large;
+  font-weight: 300;
+  line-height: 40px;
+  text-align: left;
+}
+
+.close-modal {
+  border: none;
+  background-color: none;
+  color: gray;
+  right: 4%;
+  position: fixed;
+  justify-content: right;
+  align-items: right;
+  z-index: 201;
+  padding: 5px 7px;
+}
+
+.createscroll{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 14px 28px;
+  border-radius: 30px;
+  width:400px;
+  height: 270px;
+  overflow-y: scroll;
+}
